@@ -26,13 +26,22 @@ function App() {
 
   return (
     <div
-    className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+    className="w-full justify-center h-screen flex-row flex-wrap gap-7 bg-cover bg-no-repeat md:bg-blend-darken "
     style={{
-        backgroundImage: `url('https://images.pexels.com/photos/935979/pexels-photo-935979.jpeg?auto=compress&cs=tinysrgb&w=600')`,
+        backgroundImage: `url('https://images.pexels.com/photos/3943720/pexels-photo-3943720.jpeg?auto=compress&cs=tinysrgb&w=600')`,
     }}
+
+    
 >
+
+    <div className='flex-1 max-w-xl ml-8 py-28'>
+        <p className='text-justify text-black/80 font-bold text-8xl '>Currency Converter.
+             
+        </p>
+    </div>
+
     <div className="w-full">
-        <div className="w-full max-w-md m-auto border rounded-lg p-5 backdrop-blur-sm bg-white/30">
+        <div className="w-full max-w-md ml-auto mr-16 mt-[-180px] border rounded-lg p-5 backdrop-blur-sm bg-black/20">
             <form
                 onSubmit={(e) => {
                     e.preventDefault();
