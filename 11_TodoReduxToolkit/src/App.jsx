@@ -8,6 +8,7 @@ function App() {
   
 
   return (
+    // todo completed with Redux
     <>
       <AddTodo></AddTodo>
       <Todos></Todos>
