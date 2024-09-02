@@ -1,6 +1,7 @@
 import {Client, ID, Databases, Storage, Query} from "appwrite"
 import config from "../config/config"
 
+//this file is dedicated for database services
 export class DatabaseService{
 
     client = new Client();
@@ -141,6 +142,8 @@ export class DatabaseService{
     }
 
 }
+
+
 
 const databaseService = new DatabaseService()
 

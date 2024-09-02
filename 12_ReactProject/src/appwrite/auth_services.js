@@ -1,6 +1,7 @@
 import {Client, Account, ID} from "appwrite"
 import config from "../config/config"
 
+//this file is dedicated for authentication related services
 export class AuthService{
 
      client = new Client()
