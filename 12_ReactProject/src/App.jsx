@@ -21,7 +21,7 @@ function App() {
    }).finally(() => setLoading(false))
  }, [])
 
-
+//returning by judging the loading condition
   return !loading ? (
     <div className=' flex flex-wrap content-between'> Testing
       <div className='w-full block'>
