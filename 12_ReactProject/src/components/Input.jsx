@@ -1,6 +1,8 @@
 import React from "react";
 import { useRef, useId } from "react";
 
+
+//input component for various input boxes in the login or signup page, reference will be passed through Forward Ref
 const Input = React.forwardRef(function Input({
     label,
     type= "text",
