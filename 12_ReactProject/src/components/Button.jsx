@@ -1,5 +1,6 @@
 import React from "react";
 
+//Button Component
 function Button(
     {children,
      type = "button",
