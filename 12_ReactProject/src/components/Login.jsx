@@ -6,7 +6,7 @@ import {Button, Logo, Input} from './index'
 import authService from "../appwrite/auth_services";
 import {useForm} from 'react-hook-form'
 
-
+//login component
 function Login(){
     const navigate = useNavigate();
     const dispatch = useDispatch();
