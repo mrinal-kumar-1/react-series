@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import authService from "../appwrite/auth_services";
 import { login } from "../store/authSlice";
 
-
+//sign up component
 function SignUp(){
 
     const navigate = useNavigate()
