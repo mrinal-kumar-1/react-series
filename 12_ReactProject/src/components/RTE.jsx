@@ -6,7 +6,11 @@ function RTE(){
 
     return(
         <div>
-            
+            <Controller>
+                <Editor>
+                    
+                </Editor>
+            </Controller>
         </div>
     )
 }
